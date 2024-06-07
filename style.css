@@ -1,0 +1,108 @@
+body {
+  background-color: #000000;
+}
+
+.img-icon {
+  width: 950px;
+  height: 300px;
+  margin: 400px 0px 100px 0px;
+}
+
+#h1-header {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: Evogria;
+  font-weight: lighter;
+}
+
+.nav-container {
+  background-color: #1D1D1D;
+}
+
+#sitename {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: Evogria;
+  font-size: 50px;
+  padding: 5px 0px 5px 0px;
+}
+
+.img-icon-container {
+  padding: 0px 0px 0px 190px;
+}
+
+.itch-icon {
+  width: 300px;
+  height: 300px;
+}
+
+.steam-icon {
+  width: 300px;
+  height: 300px;
+}
+
+.license {
+  color: #FFFFFF;
+  font-size: 27px;
+  font-family: Evogria;
+  padding: 300px 0px 0px 0px;
+  margin: 0px 0px 0px -20px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px)
+{
+  .img-icon {
+    width: 340px;
+    height: 100px;
+    margin: 150px 0px 50px 0px;
+  }
+  
+  #h1-header {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: Evogria;
+  font-weight: lighter;
+  font-size: 10px;
+  }
+  
+  #sitename {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Evogria;
+    font-size: 15px;
+    padding: 5px 0px 5px 0px;
+  }
+  
+  .img-icon-container {
+    padding: 0px 0px 0px 75px;
+  }
+  
+  .itch-icon {
+    padding: 20px 0px 0px 0px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .steam-icon {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .license {
+  color: #FFFFFF;
+  font-size: 9px;
+  font-family: Evogria;
+  padding: 100px 0px 0px 0px;
+  margin: 0px 0px 0px -10px;
+}
+}
+
+@font-face {
+  font-family: Evogria;
+  src: url("Evogria.otf");
+}
